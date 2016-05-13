@@ -15,6 +15,7 @@ namespace UnitTestProject1
 
             //Act
             string result = hello_world.Program.HelloWorldToConsole();
+
             //Assert
             Assert.Equals(expectedResult, result);
         }
